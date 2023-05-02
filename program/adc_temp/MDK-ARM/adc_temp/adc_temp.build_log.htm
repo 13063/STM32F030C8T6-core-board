@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=HN0AE-58X5U-017P1-C1Y8N-7IGFR-5E5XQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  E:\EE\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.12
+Assembler:       Armasm.exe V6.12
+Linker/Locator:  ArmLink.exe V6.12
+Library Manager: ArmAr.exe V6.12
+Hex Converter:   FromElf.exe V6.12
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+D:\Create\STM32F030C8T6\adc_temp\MDK-ARM\adc_temp.uvprojx
+Project File Date:  04/27/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.12', folder: 'E:\EE\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'adc_temp'
+../Core/Src/main.c(107): warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+          printf("vt=%f<----->temp=%f\r\n",vt,temp);
+          ^
+../Core/Src/main.c(107): note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 warning generated.
+compiling main.c...
+linking...
+Program Size: Code=9872 RO-data=236 RW-data=16 ZI-data=1232  
+FromELF: creating hex file...
+"adc_temp\adc_temp.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F0xx_DFP.2.1.1.pack
+                Keil.STM32F0xx_DFP.2.1.1
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_adc_temp
+  E:\EE\Keil_v5\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  E:\EE\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
